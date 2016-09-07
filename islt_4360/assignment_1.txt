@@ -1,3 +1,4 @@
 Jarod Kientz
 jlkp68
 zombiepuff.github.io
+For my final project I would like to make a educational site that shows High School Chemistry students the basic trends of elements on the periodic table. I will describe and more importantly show how and why atomic radius, electron affinity, and ionization energy change depending where on the periodic table the element is located. 
