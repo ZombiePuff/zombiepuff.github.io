@@ -5,7 +5,7 @@ body {
 nav {
     border: 1em solid;
     border-radius: 1em;
-    font-family: Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     border-radius: 2em ;
     text-align: center;
     background-color: #0079B2;
@@ -22,9 +22,9 @@ blockquote{
     text-align: center;
     border: 0.75em solid;
     border-radius: .75em ;
-    border-color: #FF9FAB
+    border-color: #FF9FAB;
     
 }
 footer {
-    text-align: center
+    text-align: center;
 }
