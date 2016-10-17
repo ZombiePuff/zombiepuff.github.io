@@ -1,6 +1,7 @@
 body {
-    background-color:#A4BFCC;
+    background-color:#0D93FF;
     font-family: Helvetica, Arial, sans-serif;
+    color: #EEEEEE;
 }
 nav {
     border: 1em solid;
@@ -8,13 +9,16 @@ nav {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     border-radius: 2em ;
     text-align: center;
-    background-color: #0079B2;
-    border-color: #0079B2
+    background-color: #1D3A54;
+    border-color: #1D3A54
+}
+#colorblock{
+    border: 1em solid;
 }
 nav a {
-    color: #FFF957;
+    color: #E86D0A;
     text-decoration: none;
-    background-color: #0079B2;
+    background-color: #1D3A54;
 
 }
 blockquote{
@@ -22,7 +26,6 @@ blockquote{
     text-align: center;
     border: 0.75em solid;
     border-radius: .75em ;
-    border-color: #FF9FAB;
     
 }
 footer {
