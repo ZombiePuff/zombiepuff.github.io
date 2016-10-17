@@ -1,0 +1,30 @@
+body {
+    background-color:#A4BFCC;
+    font-family: Helvetica, Arial, sans-serif;
+}
+nav {
+    border: 1em solid;
+    border-radius: 1em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 2em ;
+    text-align: center;
+    background-color: #0079B2;
+    border-color: #0079B2
+}
+nav a {
+    color: #FFF957;
+    text-decoration: none;
+    background-color: #0079B2;
+
+}
+blockquote{
+    background-color: #FF9FAB;
+    text-align: center;
+    border: 0.75em solid;
+    border-radius: .75em ;
+    border-color: #FF9FAB;
+    
+}
+footer {
+    text-align: center;
+}
