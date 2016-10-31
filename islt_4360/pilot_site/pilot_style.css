@@ -76,17 +76,17 @@ nav a {
 
 /*Hydrogen's Color*/
 a[href="#H"] {
-    background-color: cyan;
+    background-color: ##00ffff;
 }
 
 /* Alkali Metals' Color*/
 a[href="#Li"], a[href="#Na"], a[href="#K"], a[href="#Rb"], a[href="#Cs"], a[href="#Fr"] {
-    background-color: darkcyan;
+    background-color: #008b8b;
 }
 
 /*Alkaline Earth Metals' Color*/
 a[href="#Be"], a[href="#Mg"], a[href="#Ca"], a[href="#Sr"], a[href="#Ba"], a[href="#Ra"] {
-    background-color: lightseagreen;
+    background-color: #6b8f1e;
 }
 
 /*Halogens' Color*/
@@ -96,7 +96,7 @@ a[href="#F"], a[href="#Cl"], a[href="#Br"], a[href="#I"], a[href="#At"], a[href=
 
 /*Noble Gases' Color*/
 a[href="#He"], a[href="#Ne"], a[href="#Ar"], a[href="#Kr"], a[href="#Xe"], a[href="#Rn"], a[href="#Uuo"] {
-    background-color: lightcoral;
+    background-color: #f08080;
 }
 
 /*Transition Metals' Color */
@@ -112,4 +112,12 @@ a[href="#Lanthanides"], a[href="#La"], a[href="#Ce"], a[href="#Pr"], a[href="#Nd
 /*Actinides' Color*/
 a[href="#Actinides"], a[href="#Ac"], a[href="#Th"], a[href="#Pa"], a[href="#U"], a[href="#Np"], a[href="#Pu"], a[href="#Am"], a[href="#Cm"], a[href="#Bk"], a[href="#Cf"], a[href="#Es"], a[href="#Fm"], a[href="#Md"], a[href="#No"], a[href="#Lr"] {
     background-color: #b8860b;
+}
+
+/*Metaloids' Color*/
+a[href="#B"], a[href="#Si"], a[href="#Ge"], a[href="#As"], a[href="#Sb"], a[href="#Te"], a[href="#Po"] {
+    background-color: #1e8f7a;
+}
+/*Other Nonmetals' Color*/
+a[href="#C"], a[href="#N"], a[href="#O"], a[href="#P"], a[href="#S"], a[href="#Se"] {background-color: #8f1e33;
 }
