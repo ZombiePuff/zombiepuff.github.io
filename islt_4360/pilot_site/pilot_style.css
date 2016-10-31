@@ -1,33 +1,53 @@
 body{
     background-color: #0D93FF;
     font-family: Helvetica, Arial, sans-serif;
-    color:#CCCCCC;
+    color:#EEEEEE;
 }
 
+
+/*hides Elements that are not selected*/
 .readout div {
     display: none;
 }
-
+/* shows Elements that are selected*/
 .readout div:target {
     display:block;
+    width: 50%;
+    margin-left: 25%;
     text-align: center;
+    background-color: #E86D0A; 
+    border-radius:.5em;
+}
+#banner{
+    text-align: center;
+    padding: 1em;
+    border-radius: 2em;
     background-color: #E86D0A;
-    
+    margin: .25em;
 }
+
 #perTable{
-    width: 98%;
+    width: 100%;
+    table-layout:fixed;
 }
+.currentPage{
+    color: #E86D0A;
+}
+
 .pTable{
     
     background-color:#1D3A54;
+    padding: .5em;
+    border-radius: .5em;
 }
+
 .pTable a{
     display: block;
     color:#EEEEEE;
     background-color:#FF2C17;
     text-decoration: none;
-    
-    
+    border-radius: .25em;
+    text-align: center;
 }
 footer{
     display: block;
@@ -37,4 +57,55 @@ nav {
     width: 100%;
     text-align:center;
     margin: auto;
+    display: block;
 }
+nav a {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 1.75em;
+    background-color: #1D3A54;
+    padding: .25em;
+    border-radius: .25em;
+    background-color: #1D3A54;
+    display: inline-block;
+    margin: .25em;
+}
+
+/*Hydrogen's Color*/
+a[href="#H"] {
+    background-color: cyan;
+}
+
+/* Alkali Metals' Color*/
+a[href="#Li"], a[href="#Na"], a[href="#K"], a[href="#Rb"], a[href="#Cs"], a[href="#Fr"] {
+    background-color: darkcyan;
+}
+
+/*Alkaline Earth Metals' Color*/
+a[href="#Be"], a[href="#Mg"], a[href="#Ca"], a[href="#Sr"], a[href="#Ba"], a[href="#Ra"] {
+    background-color: lightseagreen;
+}
+
+/*Halogens' Color*/
+a[href="#F"], a[href="#Cl"], a[href="#Br"], a[href="#I"], a[href="#At"], a[href="#Uus"] {
+    background-color:#0D93FF;
+}
+
+/*Noble Gases' Color*/
+a[href="#He"], a[href="#Ne"], a[href="#Ar"], a[href="#Kr"], a[href="#Xe"], a[href="#Rn"], a[href="#Uuo"] {
+    background-color: lightcoral;
+}
+
+/*Transition Metals' Color */
+a[href="#Sc"], a[href="#Ti"], a[href="#V"], a[href="#Cr"], a[href="#Mn"], a[href="#Fe"], a[href="#Co"], a[href="#Ni"], a[href="#Cu"], a[href="#Zn"], a[href="#Y"], a[href="#Zr"], a[href="#Nb"], a[href="#Mo"], a[href="#Tc"], a[href="#Ru"], a[href="#Rh"], a[href="#Pd"], a[href="#Ag"], a[href="#Cd"], a[href="#Hf"], a[href="#Ta"], a[href="#W"], a[href="#Re"], a[href="#Os"], a[href="#Ir"], a[href="#Pt"], a[href="#Au"], a[href="#Hg"], a[href="#Rf"], a[href="#Db"], a[href="#Sg"], a[href="#Bh"], a[href="#Hs"], a[href="#Mt"], a[href="#Ds"], a[href="#Rg"], a[href="#Cn"] {
+    background-color: rebeccapurple;
+}
+
+/*Lanthanides' Color*/
+a[href="#Lanthanides"], a[href="#La"], a[href="#Ce"], a[href="#Pr"], a[href="#Nd"], a[href="#Pm"], a[href="#Sm"], a[href="#Eu"], a[href="#Gd"], a[href="#Tb"], a[href="#Dy"], a[href="#Ho"], a[href="#Er"], a[href="#Tm"], a[href="#Yb"], a[href="#Lu"] {
+    background-color: goldenrod;
+}
+
+/*Actinides' Color*/
+a[href="#Actinides"], a[href="#Ac"], a[href="#Th"], a[href="#Pa"], a[href="#U"], a[href="#Np"], a[href="#Pu"], a[href="#Am"], a[href="#Cm"], a[href="#Bk"], a[href="#Cf"], a[href="#Es"], a[href="#Fm"], a[href="#Md"], a[href="#No"], a[href="#Lr"] {
+    background-color: darkgoldenrod;
