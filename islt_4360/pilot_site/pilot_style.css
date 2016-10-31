@@ -44,6 +44,9 @@ body{
 .pTable a{
     display: block;
     color:#EEEEEE;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin: .005em;
     background-color:#FF2C17;
     text-decoration: none;
     border-radius: .25em;
@@ -98,14 +101,15 @@ a[href="#He"], a[href="#Ne"], a[href="#Ar"], a[href="#Kr"], a[href="#Xe"], a[hre
 
 /*Transition Metals' Color */
 a[href="#Sc"], a[href="#Ti"], a[href="#V"], a[href="#Cr"], a[href="#Mn"], a[href="#Fe"], a[href="#Co"], a[href="#Ni"], a[href="#Cu"], a[href="#Zn"], a[href="#Y"], a[href="#Zr"], a[href="#Nb"], a[href="#Mo"], a[href="#Tc"], a[href="#Ru"], a[href="#Rh"], a[href="#Pd"], a[href="#Ag"], a[href="#Cd"], a[href="#Hf"], a[href="#Ta"], a[href="#W"], a[href="#Re"], a[href="#Os"], a[href="#Ir"], a[href="#Pt"], a[href="#Au"], a[href="#Hg"], a[href="#Rf"], a[href="#Db"], a[href="#Sg"], a[href="#Bh"], a[href="#Hs"], a[href="#Mt"], a[href="#Ds"], a[href="#Rg"], a[href="#Cn"] {
-    background-color: rebeccapurple;
+    background-color: #663399;
 }
 
 /*Lanthanides' Color*/
 a[href="#Lanthanides"], a[href="#La"], a[href="#Ce"], a[href="#Pr"], a[href="#Nd"], a[href="#Pm"], a[href="#Sm"], a[href="#Eu"], a[href="#Gd"], a[href="#Tb"], a[href="#Dy"], a[href="#Ho"], a[href="#Er"], a[href="#Tm"], a[href="#Yb"], a[href="#Lu"] {
-    background-color: goldenrod;
+    background-color: #daa520;
 }
 
 /*Actinides' Color*/
 a[href="#Actinides"], a[href="#Ac"], a[href="#Th"], a[href="#Pa"], a[href="#U"], a[href="#Np"], a[href="#Pu"], a[href="#Am"], a[href="#Cm"], a[href="#Bk"], a[href="#Cf"], a[href="#Es"], a[href="#Fm"], a[href="#Md"], a[href="#No"], a[href="#Lr"] {
-    background-color: darkgoldenrod;
+    background-color: #b8860b;
+}
