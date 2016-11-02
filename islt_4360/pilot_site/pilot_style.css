@@ -20,9 +20,10 @@ body{
 }
 #banner{
     text-align: center;
+    color: #E86D0A;
     padding: 1em;
     border-radius: 2em;
-    background-color: #E86D0A;
+    background-color: #1D3A54;
     margin: .25em;
 }
 
@@ -31,7 +32,7 @@ body{
     table-layout:fixed;
 }
 .currentPage{
-    color: #E86D0A;
+    color: #EEEEEE;
 }
 
 .pTable{
@@ -63,7 +64,7 @@ nav {
     display: block;
 }
 nav a {
-    color: #EEEEEE;
+    color:#E86D0A;;
     text-decoration: none;
     font-size: 1.75em;
     background-color: #1D3A54;
@@ -96,6 +97,9 @@ a[href="#F"], a[href="#Cl"], a[href="#Br"], a[href="#I"], a[href="#At"], a[href=
 
 /*Noble Gases' Color*/
 a[href="#He"], a[href="#Ne"], a[href="#Ar"], a[href="#Kr"], a[href="#Xe"], a[href="#Rn"], a[href="#Uuo"] {
+    background-color: #BD6565;
+}
+a[href="#He"]:hover, a[href="#Ne"]:hover, a[href="#Ar"]:hover, a[href="#Kr"]:hover, a[href="#Xe"]:hover, a[href="#Rn"]:hover, a[href="#Uuo"]:hover {
     background-color: #f08080;
 }
 
@@ -103,6 +107,10 @@ a[href="#He"], a[href="#Ne"], a[href="#Ar"], a[href="#Kr"], a[href="#Xe"], a[hre
 a[href="#Sc"], a[href="#Ti"], a[href="#V"], a[href="#Cr"], a[href="#Mn"], a[href="#Fe"], a[href="#Co"], a[href="#Ni"], a[href="#Cu"], a[href="#Zn"], a[href="#Y"], a[href="#Zr"], a[href="#Nb"], a[href="#Mo"], a[href="#Tc"], a[href="#Ru"], a[href="#Rh"], a[href="#Pd"], a[href="#Ag"], a[href="#Cd"], a[href="#Hf"], a[href="#Ta"], a[href="#W"], a[href="#Re"], a[href="#Os"], a[href="#Ir"], a[href="#Pt"], a[href="#Au"], a[href="#Hg"], a[href="#Rf"], a[href="#Db"], a[href="#Sg"], a[href="#Bh"], a[href="#Hs"], a[href="#Mt"], a[href="#Ds"], a[href="#Rg"], a[href="#Cn"] {
     background-color: #663399;
 }
+a[href="#Sc"]:hover, a[href="#Ti"]:hover, a[href="#V"]:hover, a[href="#Cr"]:hover, a[href="#Mn"]:hover, a[href="#Fe"]:hover, a[href="#Co"]:hover, a[href="#Ni"]:hover, a[href="#Cu"]:hover, a[href="#Zn"]:hover, a[href="#Y"]:hover, a[href="#Zr"]:hover, a[href="#Nb"]:hover, a[href="#Mo"]:hover, a[href="#Tc"]:hover, a[href="#Ru"]:hover, a[href="#Rh"]:hover, a[href="#Pd"]:hover, a[href="#Ag"]:hover, a[href="#Cd"]:hover, a[href="#Hf"]:hover, a[href="#Ta"]:hover, a[href="#W"]:hover, a[href="#Re"]:hover, a[href="#Os"]:hover, a[href="#Ir"]:hover, a[href="#Pt"]:hover, a[href="#Au"]:hover, a[href="#Hg"]:hover, a[href="#Rf"]:hover, a[href="#Db"]:hover, a[href="#Sg"]:hover, a[href="#Bh"]:hover, a[href="#Hs"]:hover, a[href="#Mt"]:hover, a[href="#Ds"]:hover, a[href="#Rg"]:hover, a[href="#Cn"]:hover {
+        background-color: #6f5499;
+}
+
 
 /*Lanthanides' Color*/
 a[href="#Lanthanides"], a[href="#La"], a[href="#Ce"], a[href="#Pr"], a[href="#Nd"], a[href="#Pm"], a[href="#Sm"], a[href="#Eu"], a[href="#Gd"], a[href="#Tb"], a[href="#Dy"], a[href="#Ho"], a[href="#Er"], a[href="#Tm"], a[href="#Yb"], a[href="#Lu"] {
