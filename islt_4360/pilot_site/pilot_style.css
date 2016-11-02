@@ -2,8 +2,13 @@ body{
     background-color: #0D93FF;
     font-family: Helvetica, Arial, sans-serif;
     color:#EEEEEE;
+    margin: 0px;
 }
 
+h1{
+    margin-top: 0;
+    padding: 1em;
+}
 
 /*hides Elements that are not selected*/
 .readout div {
@@ -20,11 +25,9 @@ body{
 }
 #banner{
     text-align: center;
+    width: 100%;
     color: #E86D0A;
-    padding: 1em;
-    border-radius: 2em;
     background-color: #1D3A54;
-    margin: .25em;
 }
 
 #perTable{
@@ -40,6 +43,7 @@ body{
     background-color:#1D3A54;
     padding: .5em;
     border-radius: .5em;
+        margin-bottom: 1em;
 }
 
 .pTable a{
@@ -52,6 +56,7 @@ body{
     text-decoration: none;
     border-radius: .25em;
     text-align: center;
+
 }
 footer{
     display: block;
@@ -60,7 +65,6 @@ footer{
 nav {
     width: 100%;
     text-align:center;
-    margin: auto;
     display: block;
 }
 nav a {
@@ -71,8 +75,7 @@ nav a {
     padding: .25em;
     border-radius: .25em;
     background-color: #1D3A54;
-    display: inline-block;
-    margin: .25em;
+    display: block;
 }
 
 /*Hydrogen's Color*/
@@ -128,4 +131,32 @@ a[href="#B"], a[href="#Si"], a[href="#Ge"], a[href="#As"], a[href="#Sb"], a[href
 }
 /*Other Nonmetals' Color*/
 a[href="#C"], a[href="#N"], a[href="#O"], a[href="#P"], a[href="#S"], a[href="#Se"] {background-color: #8f1e33;
+}
+
+
+/* Changes for viewing on Desktop */
+
+@media only screen and (min-width: 768px) {
+    
+nav {
+    width: 100%;
+    text-align:center;
+    margin: auto;
+    display: block;
+}
+nav a {
+    color:#E86D0A;;
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: #1D3A54;
+    padding: .25em;
+    border-radius: .25em;
+    background-color: #1D3A54;
+    display: inline-block;
+    margin: .25em;
+}
+    
+.content {
+    margin: 1em
+    }
 }
